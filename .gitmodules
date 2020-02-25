@@ -4,3 +4,6 @@
 [submodule "crc"]
 	path = crc
 	url = https://github.com/shixiongfei/crc
+[submodule "ZXing"]
+	path = ZXing
+	url = https://github.com/nu-book/zxing-cpp
