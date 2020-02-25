@@ -1,0 +1,9 @@
+[submodule "ZXing"]
+	path = ZXing
+	url = https://github.com/zxing/zxing
+[submodule "rs232"]
+	path = rs232
+	url = https://github.com/Marzac/rs232
+[submodule "crc"]
+	path = crc
+	url = https://github.com/shixiongfei/crc
