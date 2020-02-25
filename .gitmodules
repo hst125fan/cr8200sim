@@ -1,6 +1,3 @@
-[submodule "ZXing"]
-	path = ZXing
-	url = https://github.com/nu-book/zxing-cpp
 [submodule "rs232"]
 	path = rs232
 	url = https://github.com/Marzac/rs232
