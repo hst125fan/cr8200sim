@@ -83,8 +83,10 @@ addfolder("scansim/handlers")
 if os.name == "nt":
 	outputfilename+=".exe"
 	os.system( "gcc -c -o rs232.o rs232/rs232-win.c" )
+	print( "OS Windows" )
 else:
 	os.system( "gcc -c -o rs232.o rs232/rs232-linux.c" )
+	print( "OS Linux " + os.name )
 
 os.system( "gcc -c -o crc.o crc/crc.c" )
 
